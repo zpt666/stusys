@@ -1,0 +1,32 @@
+table {
+    width: 70%;
+    background: #ccc;
+    margin: 10px auto;
+    border-collapse: collapse;
+}
+th,td {
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+th {
+    background: #eee;
+    font-weight: normal;
+}
+tr {
+    background: #fff;
+}
+#addStudent{
+    height: 400px;
+    width: 300px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: none;
+    padding-top: 50px;
+    background-color: aquamarine;
+}
+#addStudent input{
+    margin-top: 5px;
+}
